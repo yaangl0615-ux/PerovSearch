@@ -5,7 +5,7 @@
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://reactjs.org/)
 [![Anthropic](https://img.shields.io/badge/AI-Claude%20Sonnet%204-orange)](https://anthropic.com)
 
-https://perov-search.vercel.app/
+The app opens at `(https://perov-search.vercel.app/)`.
 ---
 
 ## Overview
@@ -55,8 +55,6 @@ npm install
 npm start
 ```
 
-The app opens at `http://localhost:3000`.
-
 ### Anthropic API key
 
 The app calls Claude to generate expert analysis. Create a `.env` file in the project root:
@@ -88,8 +86,8 @@ PerovSearch/
 ## Citation
 
 ```
-[Author(s)]. PerovSearch: A natural-language query and interpretation framework
-for cubic perovskite databases. Computational Materials Science, [year].
+PerovSearch: A natural-language query and interpretation framework
+for cubic perovskite databases. Computational Materials Science.
 ```
 
 ---
