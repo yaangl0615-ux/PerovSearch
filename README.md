@@ -51,21 +51,15 @@ Source: CMR cubic perovskite dataset. Properties computed with the GLLB-SC funct
 ### Install and run
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/PerovSearch.git
+git clone https://github.com/yaangl0615-ux/PerovSearch.git
 cd PerovSearch
 npm install
 npm start
 ```
 
 ### Anthropic API key
-
-The app calls Claude to generate expert analysis. Create a `.env` file in the project root:
-
-```
-REACT_APP_ANTHROPIC_KEY=sk-ant-...
-```
-
-> **Never commit your `.env` file.** It is already listed in `.gitignore`.
+Open `src/PerovSearch.jsx` and replace the API call headers with your key,
+or set up a backend proxy. Do not commit your key to version control.
 
 ---
 
