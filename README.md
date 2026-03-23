@@ -2,10 +2,12 @@
 
 > A natural-language query and interpretation framework for cubic perovskite databases
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-brightgreen)](https://perov-search.vercel.app/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://reactjs.org/)
 [![Anthropic](https://img.shields.io/badge/AI-Claude%20Sonnet%204-orange)](https://anthropic.com)
 
-The app opens at `(https://perov-search.vercel.app/)`.
+**🔗 Live demo: https://perov-search.vercel.app/**
+
 ---
 
 ## Overview
@@ -49,7 +51,7 @@ Source: CMR cubic perovskite dataset. Properties computed with the GLLB-SC funct
 ### Install and run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/PerovSearch.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/PerovSearch.git
 cd PerovSearch
 npm install
 npm start
@@ -87,13 +89,16 @@ PerovSearch/
 
 ```
 PerovSearch: A natural-language query and interpretation framework
-for cubic perovskite databases. Computational Materials Science.
+for cubic perovskite databases.
 ```
 
 ---
 
 ## Acknowledgements
 
-- Database: Computational Materials Repository (CMR)
-- AI explanation: [Anthropic Claude](https://anthropic.com)
-- Electronic structure: GLLB-SC functional
+- **Database:** Computational Materials Repository (CMR) — cubic perovskite water-splitting dataset.
+  Please cite the original data sources:
+  - Castelli et al., *New cubic perovskites for one- and two-photon water splitting using the computational materials repository*, Energy Environ. Sci. **5**, 9034 (2012).
+  - Castelli et al., *Computational screening of perovskite metal oxides for optimal solar light capture*, Energy Environ. Sci. **5**, 5814 (2012).
+- **AI explanation:** [Anthropic Claude](https://anthropic.com)
+- **Electronic structure:** GLLB-SC functional
